@@ -11,7 +11,7 @@ const Moon = ({ room: { content } }) => {
       <div>
         <h1 className="text-3xl mb-[30px]">{val.title}</h1>
         <p className="mb-[10px] text-lg">{val.desc}</p>
-        <button className="text-white text-lg mt-10 md:ml-[30vh] bg-[#3e352c] p-4 w-[30vh] rounded ">
+        <button className="text-white text-lg mt-10 md:ml-auto bg-[#3e352c] p-4 w-[30vh] rounded ">
           BOOK NOW
         </button>
       </div>
