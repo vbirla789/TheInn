@@ -31,7 +31,7 @@ const Image = ({ third: { photos } }) => {
         <Splide options={splideOptions}>
           {photos.map((val, i) => (
             <SplideSlide key={i}>
-              <img src={val.img} className="h-[70vh] w-[50vh] " />
+              <img src={val.img} className="h-[70vh] w-[50vh] md:h-[62vh]" />
             </SplideSlide>
           ))}
         </Splide>
