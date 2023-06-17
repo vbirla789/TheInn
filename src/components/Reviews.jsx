@@ -27,7 +27,7 @@ const Reviews = ({ fourth: { photo, content } }) => {
   };
   return (
     <div className="min-h-[100vh] bg-[#ece4dc] flex flex-col">
-      <div className="flex ">
+      <div className="flex md:flex-col md:gap-10">
         <div className="flex my-auto mr-5">
           <div className="ml-[30px] mr-[20px] ">
             <img src={photo} className="h-14 w-14" />
@@ -73,7 +73,7 @@ const Reviews = ({ fourth: { photo, content } }) => {
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
       >
-        <h1 className="text-6xl md:text-5xl text-[#3e352c]  m-auto mt-20">
+        <h1 className="text-6xl md:text-4xl text-[#3e352c]  m-auto md:ml-3 mt-20">
           WANT TO BOOK WITH US ?
         </h1>
         <button className="text-white text-lg my-10 bg-[#3e352c] p-4 w-[30vh] rounded m-auto">

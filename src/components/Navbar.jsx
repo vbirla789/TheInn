@@ -22,13 +22,13 @@ const Navbar = () => {
     <div
       className={
         !navState
-          ? "absolute top-7 left-10 z-50 "
+          ? "absolute top-7 left-0 z-50 "
           : "fixed top-0 left-0 right-0 h-[10vh] flex items-center  z-50 bg-[#a4b1b5] opacity-80"
       }
     >
       <nav className="flex items-center ">
         <ul className="flex flex-row gap-10">
-          <li className="grid items-center ml-20">
+          <li className="grid items-center mx-auto ml-10">
             <a href="/">
               <h1 className="text-2xl text-[#3e352c] ">Home</h1>
             </a>
