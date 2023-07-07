@@ -9,7 +9,7 @@ import { fadeIn } from "../variants";
 
 const Reviews = ({ fourth: { photo, content } }) => {
   const splideOptions = {
-    perPage: 4,
+    perPage: 2.5,
     perMove: 1,
     type: "loop",
     rewind: true,
@@ -21,7 +21,7 @@ const Reviews = ({ fourth: { photo, content } }) => {
       1200: { perPage: 3 },
       991: { perPage: 2.3 },
       768: { perPage: 2 },
-      500: { perPage: 1.3 },
+      500: { perPage: 1.5 },
       425: { perPage: 1 },
     },
   };
@@ -56,7 +56,7 @@ const Reviews = ({ fourth: { photo, content } }) => {
             </button>
           </div>
         </div>
-        <div className="w-[100%]">
+        <div className="w-[140vh] lg:w-[95%] mx-auto">
           <Splide options={splideOptions}>
             {content.map((val, i) => (
               <SplideSlide>

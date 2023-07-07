@@ -3,7 +3,7 @@ import { AiFillStar } from "react-icons/ai";
 
 const Views = ({ name, img, time, review }) => {
   return (
-    <div className="bg-white rounded p-5 h-[50vh] w-[40vh]  pb-[10px] mb-[10px] drop-shadow-md hover:drop-shadow-xl">
+    <div className="bg-white rounded p-5 h-auto min-h-[58vh] w-[80%] pb-[10px] mb-[10px] drop-shadow-md hover:drop-shadow-xl sm:min-h-[40vh]">
       <div className="">
         <div className="flex gap-5 mb-3">
           <div>
